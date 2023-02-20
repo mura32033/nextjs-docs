@@ -19,7 +19,19 @@ const config: DocsThemeConfig = {
   feedback: {
     content: null
   },
-  gitTimestamp: null
+  gitTimestamp: function useGitTimestamp({ timestamp }) {
+    const format = new Intl.DateTimeFormat('ja-JP', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric',
+    })
+    return (
+      <span>{ format.format(timestamp) } 最終更新</span>
+    )
+  }
 }
 
 export default config
