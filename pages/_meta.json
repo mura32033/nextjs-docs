@@ -1,9 +1,16 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "another": {
+    "display": "hidden"
+  },
+  "advanced": {
+    "display": "hidden"
+  },
   "about": {
     "title": "About",
     "type": "page"
+  },
+  "perfume": {
+    "title": "香水"
   }
 }
