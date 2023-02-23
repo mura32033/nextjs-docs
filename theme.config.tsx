@@ -49,8 +49,7 @@ const config: DocsThemeConfig = {
     return (
       <span>{ format.format(timestamp) } 最終更新</span>
     )
-  },
-  navigation: false
+  }
 }
 
 export default config
