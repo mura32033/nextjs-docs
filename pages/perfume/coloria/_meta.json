@@ -4,10 +4,17 @@
       "typesetting": "article"
     }
   },
+  "aesop": "Aesop",
   "bvlgari": "BVLGARI",
   "ch": "Carolina Herrera",
+  "chanel": "CHANEL",
+  "ck": "Calvin Klein",
   "clean": "Clean",
   "dg": "Dolce & Gabbana",
   "ea": "Elizabeth Arden",
-  "hermes": "Hermes"
+  "givenchy": "GIVENCHY",
+  "gucci": "GUCCI",
+  "hermes": "Hermes",
+  "ik": "ISSEY MIYAKE",
+  "loewe": "LOEWE"
 }
